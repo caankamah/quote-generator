@@ -1,3 +1,9 @@
+@media (min-width: 600px) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
 * {
@@ -97,4 +103,5 @@ quote-box blockquote::before, quote-box blockquote::after{
 .quote-box button:nth-child(2){
     background: transparent;
     color: #333;
+
 }
